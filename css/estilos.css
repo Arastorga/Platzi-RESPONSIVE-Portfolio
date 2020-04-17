@@ -233,8 +233,8 @@ figure {
   margin-left: 20px;
 }
 .photo { 
-  margin: 10px;
-  width: 480px;
+  margin: 2%;
+  width: 46%;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
@@ -387,6 +387,14 @@ figure {
   .project-date,
   .project-url {
     margin: .4em 0;
+  }
+  .photo{
+    width: auto;
+    flex-shrink: initial;
+    margin: 20px;
+  }
+  .photo img{
+    width: 100%;
   }
 }
 
