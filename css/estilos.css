@@ -336,7 +336,9 @@ figure {
 /* desktop first que empieces desde el MQ más grande */
 
 @media screen and (max-width: 1024px) {
-
+  .container{
+    padding: 0 1em;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -395,6 +397,22 @@ figure {
   }
   .photo img{
     width: 100%;
+  }
+
+  .contact{
+    height: auto;
+    padding: 1em 0;
+    display: block;
+    text-align: center;
+  }
+  .contact  .form-email button{
+    margin: 1em auto;
+  }
+
+  .footer{
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
   }
 }
 
