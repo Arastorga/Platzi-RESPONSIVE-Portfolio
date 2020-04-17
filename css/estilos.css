@@ -107,9 +107,6 @@ h2 {
   border-bottom-right-radius: 10px; */
   /* margin: 10px; */
   margin-bottom: 15px;
-  /* margin-right
-  margin-left 
-  margin-top */
   padding: 20px;
   background: white;
   display: flex;
@@ -144,6 +141,11 @@ h2 {
 
 .project-imageContainer {
   width: 500px;
+}
+
+.project-imageContainer img{
+  display: block;
+  margin: 0 auto;
 }
 
 .header {
@@ -219,27 +221,27 @@ figure {
   color: white;
 }
 
-.event-list {
+.photo-list {
   display: flex;
   flex-wrap: wrap;
 }
-.event-list-title {
+.photo-list-title {
   margin-left: 20px;
 }
-.event { 
+.photo { 
   margin: 10px;
   width: 480px;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
-  background: #f4fbff;
+  background: #f2f9ff;
 }
-.event img {
+.photo img {
   width: 480px;
   height: 200px;
   object-fit: cover;
 }
-.event-detail {
+.photo-detail {
   margin: 20px 40px;
   margin-top: -40px;
   background-color: white;
@@ -247,11 +249,11 @@ figure {
   padding: 20px;
   text-align: center;
 }
-.event-description {
-  text-align: left;
+.photo-description {
+  text-align: center;
 }
 
-.event-url {
+.photo-url {
   color: #056fff;
   border: 1px solid;
   padding: 5px 20px;
@@ -268,9 +270,6 @@ figure {
   justify-content: space-between;
 }
 
-.social {
-}
-
 .social-link {
   display: inline-block;
   width: 50px;
@@ -281,9 +280,6 @@ figure {
 
 .social-link.twitter {
   background-image: url('../images/twitter.svg');
-}
-.social-link.facebook {
-  background-image: url('../images/facebook.svg');
 }
 .social-link.github {
   background-image: url('../images/github.svg');
