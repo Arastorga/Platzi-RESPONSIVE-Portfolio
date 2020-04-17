@@ -339,6 +339,26 @@ figure {
   .container{
     padding: 0 1em;
   }
+  
+  .hero{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 4em 0;
+  }
+  h1{
+    font-size: 2em;
+    z-index: 2;
+  }
+  .hero-image{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -414,6 +434,10 @@ figure {
     text-align: center;
     border: 1px solid transparent;
   }
+
+  h1{
+    font-size: 1.2em;
+  }
 }
 
 
@@ -430,5 +454,22 @@ figure {
   .project-date,
   .project-url {
     margin: .2em 0;
+  }
+
+  .container{
+    padding: 0 .5em;
+  }
+
+  h1{
+    font-size: .8em;
+    font-weight: 500;
+  }
+
+  .hero{
+    padding: 2em 0;
+  }
+
+  h2{
+    font-size: 1.2em;
   }
 }
