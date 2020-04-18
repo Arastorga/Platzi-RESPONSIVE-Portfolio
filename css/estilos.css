@@ -247,7 +247,7 @@ figure {
 }
 .photo-detail {
   margin: 20px 40px;
-  margin-top: -40px;
+  margin-top: -20px;
   background-color: white;
   position: relative;
   padding: 20px;
@@ -359,6 +359,11 @@ figure {
     bottom: 0;
     width: 100%;
   }
+}
+
+.html-video{
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 767px) {
