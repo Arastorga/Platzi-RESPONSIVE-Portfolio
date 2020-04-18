@@ -437,6 +437,10 @@ figure {
 
   h1{
     font-size: 1.2em;
+    color: #026fff;
+  }
+  h1 strong{
+    color: white;
   }
 }
 
