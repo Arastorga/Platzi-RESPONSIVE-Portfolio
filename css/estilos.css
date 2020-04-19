@@ -333,6 +333,11 @@ figure {
   flex-wrap: inherit;
 }
 
+.html-video{
+  width: 100%;
+  height: auto;
+}
+
 .youtube-video{
   /* esto no sirve igual que 
   los video de html5
@@ -389,11 +394,6 @@ esta ocasión. */
   }
 }
 
-.html-video{
-  width: 100%;
-  height: auto;
-}
-
 @media screen and (max-width: 767px) {
   .header{
     display: block;
@@ -444,7 +444,9 @@ esta ocasión. */
     margin: .4em 0;
   }
   .photo{
-    width: auto;
+    width: 100%;
+    /* esto en "auto" provcaba un error con el video insertado 
+    desde youtube. */
     flex-shrink: initial;
     margin: 20px;
   }
