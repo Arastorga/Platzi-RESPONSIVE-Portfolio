@@ -168,10 +168,21 @@
     </footer>
     <!--------------------------------------------------------- JavaScript --------------------------------------------------------->
     <script>
+        const tablet = window.matchMedia('screen and (max-width: 767px)') /*Media Query on JavaScript*/
+
         const menu = document.querySelector('.menu');
         const burgerButton = document.querySelector('#burger-menu');
 
-        burgerButton.addEventListener('click', hideShow)
+        tablet.addListener(validation)
+
+        function validation(event){
+            if (event.matches)  {
+                burgerButton.addEventListener('click', hideShow)
+            } else  {
+                burgerButton.removeEventListener('click', hideShow)
+            }                                
+        }
+        validation(tablet);
 
         function hideShow(){
             if (menu.classList.contains('is-active')){
