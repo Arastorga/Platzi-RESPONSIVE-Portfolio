@@ -346,7 +346,9 @@ figure {
 .social-link.instagram {
   background-image: url('../images/instagram.svg');
 }
-
+.social-link.cv{
+  background-image: url(../images/cv.png);
+}
 
 .form-email input {
   border-color: gray;
